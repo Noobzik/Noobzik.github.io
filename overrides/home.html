@@ -1,0 +1,66 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css">
+<meta name="robots" content="noindex">
+<!-- Hero -->
+<section class="container">
+    <div class="md-grid md-typeset">
+        <div class="hero">
+            <div class="hero-content">
+                <h1> Rakib SHEIKH Website </h1>
+                    <p>Welcome to my website. Here you'll find my resume, academics, and the personal projects and teachings I made for my classes.</p>
+                <!--a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+                    Start Here
+                </a>
+                <a href="https://flybywiresim.com/" title="FlyByWire Simulations" class="md-button">
+                    Go to FBW Website
+                </a-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Page links -->
+<div class="feature-margin">
+    <div class="f-box">
+        <a href="Teachings">
+            <h2>
+                Teachings
+            </h2>
+            <hr>
+            <p>I am a computer science teacher in my free time as a Freelance. I teach about programming languages and everything related to Artificial Intelligence and Big Data.
+                <br>Students can access my teaching materials here.</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="Projects">
+        <h2>
+            Projects
+        </h2>
+        <hr>
+        <p>When I learn a new stack, I try to apply it to real-world projects. </p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="know-me">
+        <h2>
+            Get to know me
+        </h2>
+        <hr>
+        <p>Get to know me a little more with a developed path. You might even try to hire me after reading it!</p>
+        </a>
+    </div>
+    <div class="f-box">
+        <a href="">
+        <h2>
+            Blog Area (Incoming)
+        </h2>
+        <hr>
+        <p>My blog area is under development. It's incoming. You can read all my findings throughout my experiences and the snippets I always use.</p>
+        </a>
+    </div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}

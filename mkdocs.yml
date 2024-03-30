@@ -1,0 +1,97 @@
+site_name: Rakib SHEIKH
+site_description: Curriculum Vitae & Teachings
+copyright: <a href="https://aws.amazon.com" target="_blank">
+  <img src="https://d1.awsstatic.com/logos/aws-logo-lockups/poweredbyaws/PB_AWS_logo_RGB_REV_SQ.8c88ac215fe4e441dc42865dd6962ed4f444a90d.png" style="max-width:33%;"" alt="Powered by AWS"></a>
+theme:
+  name: material
+  favicon: assets/images/logo.png
+  logo: assets/images/logo.png
+  custom_dir: overrides
+  font:
+    text: Inter
+  palette: 
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes 
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+  
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+  - awesome-pages
+  - external-markdown
+  - mermaid2
+  - tags
+  - blog:
+      blog_dir: blog
+
+# Styling Front-end
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/admonitions.css
+  - stylesheets/navigation.css
+
+# Extra Functions / Customizations
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/noobzik
+      name: Rakib SHEIKH on Github
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/noobzik
+      name: Rakib SHEIKH on Kaggle
+    - icon: fontawesome/brands/researchgate
+      link: https://www.researchgate.net/profile/Rakib-Sheikh-4
+      name: Rakib SHEIKH on Research Gate
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/in/rakib-sheikh-ab9424aa
+      name: Rakib SHEIKH on LinkedIn
+    - icon: fontawesome/brands/mailchimp
+      link: mailto://noobzik@pm.me
+      name: Contact Rakib SHEIKH by mail
+
+
+# Additional Markdown Extensions to use bundled icon sets
+markdown_extensions:
+  - meta: {} # Add front matter to a document
+  - admonition: {} # Makes things pretty
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite: {}
+  - pymdownx.snippets: {}
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format # Nestled code
+  - attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
+  - pymdownx.tabbed: # Content tabs
+      alternate_style: true
+  - pymdownx.details: {} # Additional features to admonition
+  - pymdownx.caret: {} # Formatting Extension
+  - pymdownx.critic: {} # Alternate Formatting Extension
+  - pymdownx.mark: {} # Formatting Extension
+  - pymdownx.tilde: {} # Formatting Extension
+  - pymdownx.keys: {} # Visual keyboard keys extension
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji: # Allows emoji style inline embeds for icons
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html: {}
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+

@@ -1,0 +1,23 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: Cours TAI
+nav:
+    - Programme du cours: index.md
+    - Comment se naviguer: preembule.md
+    - Introduction: Decouverte.md
+    - projet_pro.md
+    - base_info.md
+    - TPLinux
+    - TPWindows
+#    - excel.md
+#    - Chess: chess.md
+#    - Shogi: shogi.md
+#    - Geo-city search: bst.md
+#    - Terminal Adventure Zork: zork.md
+#    - Peaceland Drone Data Pipeline: peaceland.md
+#    - Reddit Data Ingestion: reddit.md
+#    - Timetable education reference: elk.md
+#    - API and Hardware: a32nx-api

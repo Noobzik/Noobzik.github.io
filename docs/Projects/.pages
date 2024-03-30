@@ -1,0 +1,11 @@
+title: Projects
+nav:
+    - Overview: index.md
+    - Annual Project 1: annual_1.md
+    - Annual Project 2: annual_2.md
+    - NYC Taxis ML Pipeline: nyc-taxis.md
+    - NLP Article summarization: nlp.md
+    - Kafka Kazaa Movie: kafka.md
+    - Data marketing: data-marketing.md
+    - Master Thesis: memoire.md
+    - Kaggle: kaggle
