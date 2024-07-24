@@ -1,4 +1,4 @@
-# Master Thesis : Introduction to financial market.
+# Master Memoire : Introduction to financial market.
 
 
 !!! note

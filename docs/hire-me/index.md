@@ -69,6 +69,7 @@ Here is my recruitment timeline I expect from you:
     *  SQL (+ Oracle PL/SQL, and SQL-Server Transactional)
     *  Markdown
     *  LaTeX
+    *  Typst
 
 
 !!! abstract "Data analytics and cleaning"
@@ -93,7 +94,6 @@ The followings technical stack are either acquired through my lectures projets o
 
     *  Tensorflow
     *  PyTorch
-    *  OpenCV
 
 !!! abstract "Machine learnings models I used"
 
@@ -101,7 +101,7 @@ The followings technical stack are either acquired through my lectures projets o
     *  Convolutionnal Neural Network
     *  YoloV4 (and Darknet AlexeyAB training)
     *  EfficienNet
-    *  Huggingface Transformers
+    *  Huggingface Transformers T5-small
 
 !!! abstract "Machine Learning Operations and Orchestration"
     *  Apache Airflow

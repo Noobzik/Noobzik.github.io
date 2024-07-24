@@ -61,6 +61,4 @@ I did not receive a valuable offer to stay for La Poste, and it saddens me to le
 
 ### And now : Landing my first Job and Freelance
 
-Honestly, it is still hard for me to land any job interview. Most of the time, I get no reply from the recruiter. I would appreciate any feedback to improve my resume or cover letter. We live in a society where our resume is passed on to an algorithm that filters out quickly. It upset me because I know I can do the job but not.
-
-I have started to lose hope of getting my first permanent contract. So I decided to offer my services as a Freelance in both consulting and training. I am still looking for a permanent contract so my bank advisor can sleep peacefully.
+To be added...
